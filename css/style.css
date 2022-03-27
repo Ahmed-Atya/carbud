@@ -1,0 +1,664 @@
+/*Font Faces*/
+@font-face {
+  font-family: Myriad-Pro-Bold;
+  src: url("../fonts/MyriadPro-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Myriad-Pro-Regular;
+  src: url("../fonts/Myriad Pro Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Open-sans-Regular;
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Open-sans-bold;
+  src: url("../fonts/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: Open-sans-light;
+  src: url("../fonts/OpenSans-Light.ttf");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: Open-sans-bolder;
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+/*End Font Faces*/
+/*Start Main Navbar*/
+header .navbar-default {
+  background-color: #FFF;
+  border-color: #FFF;
+}
+header .navbar-default .navbar-nav > li > a {
+  color: #777;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-family: Myriad-Pro-Regular;
+}
+header .navbar-default .navbar-nav > li > a:hover,
+header .navbar-default .navbar-nav > li > a:focus {
+  border-left: 4px solid #5d98d1;
+  background-color: #e53249;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+/*End Main Navbar*/
+/*Start About Section*/
+.about {
+  position: relative;
+  background-image: url("../images/bg-image.gif");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+.about h3 {
+  font-family: Open-sans-light;
+  color: #dedfdf;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.about h1 {
+  font-family: Open-sans-bolder;
+  color: #FFF;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+.about h2 {
+  font-family: Open-sans-light;
+  color: #dedfdf;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+.about button {
+  background-color: #e53249;
+  color: #dedfdf;
+  border: none;
+  padding: 13px 35px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 420px) {
+  .about h1 {
+    font-size: 30px;
+  }
+}
+/*End About Section*/
+/*Start why-that*/
+.why-that {
+  padding: 40px 0;
+}
+.why-that h3 {
+  color: #e53249;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: Myriad-Pro-Regular;
+  font-size: 27px;
+  margin-bottom: 35px;
+}
+.why-that p {
+  color: #42484f;
+  font-family: Myriad-Pro-Regular;
+  font-size: 36px;
+  text-align: left;
+  margin-bottom: 75px;
+}
+.why-that p span:first-child {
+  color: #7ba9d7;
+  margin-right: 20px;
+}
+.why-that p span:last-child {
+  color: #e53249;
+  margin-right: 20px;
+}
+.why-that .image-box img {
+  max-width: 100%;
+  height: 475px;
+  margin-bottom: 25px;
+  border: 2px dashed #CCC;
+}
+.why-that p.first {
+  color: #929598;
+  font-family: Open-sans-Regular;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 29px;
+}
+.why-that p.second {
+  color: #c2d0de;
+  font-family: Open-sans-Regular;
+  font-size: 31px;
+  text-align: left;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+}
+.why-that .badge-block {
+  background-color: #5f99d1;
+  color: #FFF;
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.why-that .features {
+  margin-top: 80px;
+}
+.why-that .features p {
+  font-family: Open-sans-Regular;
+  text-align: center;
+  color: #42484f;
+}
+.why-that .features h2 {
+  background-color: #e53249;
+  color: #FFF;
+  height: 300px;
+  width: 100%;
+  font-size: 41px;
+  padding: 35px 0;
+  padding-right: 150px;
+  padding-left: 12px;
+  font-family: Open-sans-bold;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+}
+.why-that .features .back {
+  background-color: #F5F5F5;
+  padding: 20px 0;
+}
+.why-that .features .back h2:hover {
+  border: 2px dashed #FFF;
+}
+.why-that .features .feat {
+  background-color: #FFF;
+  padding-top: 43px;
+  height: 315px;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+.why-that .features .feat img {
+  width: 125px;
+  height: 125px;
+}
+.why-that .features .feat h4 {
+  font-family: Open-sans-light;
+  color: #747482;
+  font-size: 28px;
+  margin-top: 30px;
+}
+.why-that .features .feat:hover {
+  border: 2px dashed #e53249;
+}
+.why-that .button {
+  border: none;
+  background-color: #e53249;
+  color: #FFF;
+  font-family: Myriad-Pro-Regular;
+  padding: 11px 54px;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 420px) {
+  .why-that p {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .why-that img:first-child {
+    width: 92%;
+    height: 246px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .why-that p.first {
+    font-size: 23px;
+    text-align: center;
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .why-that p.second {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .features h2 {
+    height: 245px;
+    width: 100%;
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .features .feat h4 {
+    height: 245px;
+    width: 100%;
+    font-size: 36px;
+  }
+}
+/*End why-that*/
+/*Start Our-app*/
+.our-app {
+  background-color: #f8fafb;
+  padding: 60px 0;
+}
+.our-app .app-box {
+  margin-bottom: 20px;
+}
+.our-app .app-box img {
+  height: 400px;
+  width: 300px;
+  border: 3px dashed #CCC;
+}
+.our-app .app-feat {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.our-app .app-feat h2 {
+  color: #5d98d1;
+  font-family: Open-sans-light;
+  font-size: 32px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+.our-app .app-feat h2 span {
+  font-family: Open-sans-bold;
+}
+.our-app .app-feat p {
+  font-family: Myriad-Pro-Regular;
+  font-size: 23px;
+  color: #b5c0c7;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 420px) {
+  .our-app .app-box img {
+    height: 350px;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .app-feat {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/*End Our-app*/
+/* Start abou-us*/
+.about-us {
+  background-image: url("../images/3.gif");
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  color: #FFF;
+}
+.about-us p {
+  font-family: Open-sans-light;
+  font-size: 27px;
+  text-align: left;
+}
+.about-us p span {
+  font-family: Open-sans-bold;
+}
+.about-us .overlay {
+  background-color: rgba(229, 50, 73, 0.74);
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 420px) {
+  .about-us p {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 15px;
+  }
+}
+/* End abou-us Section*/
+/*Start save section*/
+.save {
+  padding: 70px 0;
+  background-color: #f5f3f3;
+}
+.save .feature {
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+.save .feature p {
+  text-align: center;
+}
+.save .feature h2 {
+  font-family: Open-sans-bold;
+  color: #e53249;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.save .feature p:first-of-type {
+  color: #42484f;
+  font-family: Open-sans-bold;
+  line-height: 1.6;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.save .feature p:nth-of-type(2),
+.save .feature p:last-of-type {
+  font-family: Open-sans-light;
+  margin-bottom: 20px;
+  color: #050606;
+  line-height: 1.6;
+}
+.save .feature p:nth-of-type(2) span {
+  font-family: Open-sans-bold;
+}
+.save .price {
+  margin-bottom: 30px;
+  background-color: #FFF;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.save .price h3:first-of-type {
+  text-align: left;
+}
+.save .price h3:last-of-type {
+  text-align: right;
+}
+.save .price:hover {
+  border: 3px dashed #e53249;
+}
+.save .price h3 {
+  font-family: Open-sans-light;
+  color: #e53249;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+.save .price sup,
+.save .price sub,
+.save .price span {
+  color: #e53249;
+  font-family: Open-sans-bold;
+}
+.save .price span {
+  position: relative;
+}
+.save .price sup {
+  position: absolute;
+}
+.save .price sup {
+  top: 28px;
+  left: -28px;
+}
+.save .price span {
+  font-size: 117px;
+  font-family: Open-sans-bolder;
+}
+.save .price sup {
+  font-size: 26px;
+}
+.save .price span .sp-child {
+  font-size: 20px;
+}
+.save button {
+  background-color: #e53248;
+  color: #FFF;
+  border: 1px solid #e53248;
+  padding: 10px 50px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 420px) {
+  .save {
+    padding: 16px 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .save .feature p:first-of-type {
+    line-height: 1.5;
+    font-size: 21px;
+  }
+}
+@media screen and (max-width: 305px) {
+  .save .price sup {
+    top: 26px;
+    left: -13px;
+  }
+}
+/*End save section*/
+/*Start contact-us*/
+.contact-us {
+  background-image: url(../images/4.gif);
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 450px;
+  position: relative;
+}
+.contact-us .overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.contact-us h2 {
+  font-family: Open-sans-bold;
+  color: #FFF;
+  font-size: 39px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.contact-us .form-height {
+  margin-top: 20px;
+  padding-right: 60px;
+}
+.contact-us input {
+  width: 75%;
+  padding-left: 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+  font-family: Open-sans-light;
+  color: #afaaaa;
+  letter-spacing: 2px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.contact-us form button {
+  background-color: #e53248;
+  color: #FFF;
+  border: none;
+  padding: 8px 43px;
+  font-size: 20px;
+  font-family: Myriad-Pro-Regular;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 420px) {
+  .contact-us {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contact-us h2 {
+    margin-bottom: 50px;
+  }
+}
+/*End contact-us*/
+/*Start Social-connect*/
+.social-connect {
+  padding: 30px 0;
+  color: #5d98d1;
+}
+.social-connect span {
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.social-connect i {
+  margin-right: 25px;
+  background-color: #FFF;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+}
+.social-connect i:hover {
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-connect span:first-of-type {
+  font-family: Open-sans-bold;
+}
+.social-connect .links span {
+  font-family: Myriad-Pro-Regular;
+}
+.social-connect .links span:first-child {
+  padding-right: 10px;
+  border-right: solid #5d98d1;
+}
+
+.fa-facebook:hover {
+  color: #FFF;
+  background-color: #3b5998;
+}
+
+.social-connect i.fa-twitter:hover {
+  color: #FFF;
+  background-color: #1da1f2;
+}
+
+.social-connect i.fa-pinterest:hover {
+  color: #FFF;
+  background-color: #bd081c;
+}
+
+.social-connect i.fa-google-plus:hover {
+  color: #FFF;
+  background-color: #dd4b39;
+}
+
+.social-connect i.fa-instagram:hover {
+  color: #FFF;
+  background-color: #e1306c;
+}
+
+@media screen and (max-width: 420px) {
+  .social-connect span {
+    margin-right: 13px;
+  }
+}
+@media screen and (min-width: 421px) and (max-width: 599px) {
+  .social-connect span {
+    margin-right: 20px;
+  }
+}
+/*End Social-connect*/
+footer {
+  background-color: #5d98d1;
+  color: #FFF;
+  padding: 25px;
+  font-family: Myriad-Pro-Regular;
+}
+footer span {
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+footer span a {
+  color: #FFF;
+  display: inline-block;
+}
+footer span a:focus, footer span a:hover {
+  border-left: 4px solid #4a126d;
+  background-color: #e53249;
+  color: #FFF;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+footer span img {
+  margin-right: 25px;
+}
+
+/*Start footer*/
+/* Start Copy Right*/
+.copy {
+  background-color: #c4d9ee;
+  color: #5d98d1;
+  font-weight: bold;
+  padding: 15px;
+}
+
+/* End Copy Right*/
+/*Start Goto Top Button*/
+.go-top {
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  background-color: #e53347;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  line-height: 44px;
+  border: 2px solid #e53347;
+  display: none;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+}
+
+/*End Goto Top Button*/
+/* Global Classes*/
+.overlay, .about .overlay, .about-us .overlay, .contact-us .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 70px 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.about, .about-us, .contact-us {
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -ms-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+header .navbar-default .navbar-nav > li > a, .why-that .features h2, .why-that .features .feat, .our-app .app-box img, .save .price, .social-connect i, footer span a {
+  -webkit-transition: .5s ease-in-out all;
+  -o-transition: .5s ease-in-out all;
+  -ms-transition: .5s ease-in-out all;
+  -moz-transition: .5s ease-in-out all;
+  transition: .5s ease-in-out all;
+}
+
+/* End Global Classes*/
+
+/*# sourceMappingURL=style.css.map */
